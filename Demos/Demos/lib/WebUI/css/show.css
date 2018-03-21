@@ -1,0 +1,90 @@
+﻿/*新闻展示页*/
+.article-show{ overflow:hidden; padding:0 0 50px;}
+.article-show .title{ text-align:center;}
+.article-show .title h3{ font:normal 20px/36px 微软雅黑,Arial; color:#222222; margin:28px 0 0;}
+.article-show .title p span{ font:normal 14px/25px 微软雅黑,Arial; color:#8b8989; margin:0 5px;}
+.article-show .font{ overflow:hidden; margin:15px 0 0;}
+.article-show .font h3{ font:normal 18px/33px 微软雅黑,Arial; color:#03357f; margin:15px 0 0;}
+.article-show .font p{ font:normal 14px/33px 微软雅黑,Arial; color:#444444;  margin:0;}
+.article-show table {
+    border-collapse: collapse;
+    border-spacing: 0;
+	margin:0px auto;
+}
+.article-show td {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid black;
+    padding: 0 10px;
+    text-align:center;
+}
+
+
+.article-show td * { text-align:center;}
+.key-word{ margin:10px 0;}
+.key-word h4{ font:normal 12px/30px 微软雅黑,Arial; color:#2b88bf; margin:0;}
+.key-word p{ overflow:hidden;}
+.key-word p span{ display:inline-block; height:20px; background:#2b88bf; font:normal 12px/20px 微软雅黑,Arial; color:#fff; border-radius:4px; padding:0 10px; margin:0 10px 0 0;}
+.up-next{ overflow:hidden; padding:15px 0; width:100%;}
+.up-next div{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font:normal 14px/33px 微软雅黑,Arial; color:#666; padding:0;}
+.up-next div span{ font:normal 14px/33px 微软雅黑,Arial; color:#777777;}
+.up-next div a{ font:normal 14px/33px 微软雅黑,Arial; color:#444444;}
+.up-next div a:hover { color:#4e97c2 ;}
+/*新书通报详情*/
+.book-show{ overflow:hidden;}
+.book-show .book{ overflow:hidden; padding:20px 0;}
+.book-show .book .pic{ width:150px; height:203px; padding:12px; border:1px solid #e6e6e6; background:#fff; overflow:hidden; margin:0 15px 0 0;}
+.book-show .book .pic a{ display:block; width:124px; height:177px; overflow:hidden;}
+.book-show .book h3{ font:normal 24px/32px 微软雅黑,Arial; color:#333333; margin:0;}
+.book-show .book p{ font:normal 14px/32px 微软雅黑,Arial; color:#666666; margin:0;}
+.book-show .book p a{ font:normal 14px/32px 微软雅黑,Arial; color:#165396;}
+.book-show .profiles{ overflow:hidden;}
+.book-show .profiles span{ font:normal 14px/30px 微软雅黑,Arial; color:#666666;}
+.book-show .profiles p{ font:normal 14px/30px 微软雅黑,Arial; color:#666666; text-indent:2em;}
+/*资源详情*/
+.res-show{ overflow:hidden;}
+.profiles{ overflow:hidden;}
+.profiles h3{ font:normal 24px/48px 微软雅黑,Arial; color:#333;}
+.entrance strong{ font:normal 14px/24px 微软雅黑,Arial; color:#666;}
+.entrance a{display:inline-block; font:normal 14px/24px 微软雅黑,Arial; color:#fff; border-radius:2px; background:#ff7d00; width:100px; text-align:center;}
+.profiles .list{ overflow:hidden;}
+.profiles .list div{ font:normal 14px/42px 微软雅黑,Arial; color:#666; padding:0;}
+.details{ overflow:hidden;}
+.details .font{ overflow:hidden;}
+.details .font h3{ font:bold 14px/36px 微软雅黑,Arial; color:#666;}
+.details .font p{ font:normal 14px/30px 微软雅黑,Arial; color:#666666; text-indent:2em;}
+.details .list{ overflow:hidden;}
+.details .list ul{ overflow:hidden; margin:0;}
+.details .list ul li{ background:url(../../WebUI/images/doc.png) no-repeat left; padding:0 0 0 25px;}
+.details .list ul li a{ font:normal 14px/30px 微软雅黑,Arial; color:#333;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

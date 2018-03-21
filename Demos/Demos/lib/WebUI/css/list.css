@@ -1,0 +1,128 @@
+﻿/*新闻列表*/
+.artcle-list { overflow: hidden; margin: 15px 0 0; }
+.artcle-list ul { overflow: hidden; margin: 0; min-height: 500px; }
+.artcle-list ul li { overflow: hidden; border-bottom: 1px dashed  #d6d6d6; background: url(../../WebUI/images/libg1.png) no-repeat 5px center; cursor: pointer; }
+.artcle-list ul li.bgcolor { overflow: hidden; border-bottom: 1px solid #d6d6d6; background: #eee url(../../WebUI/images/libg1.png) no-repeat 5px center; cursor: pointer; }
+.artcle-list ul li .tit { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font: normal 14px/59px 微软雅黑,Arial; color: #333333; padding: 0 0 0 15px; }
+.artcle-list ul li .tit a { font: normal 14px/59px 微软雅黑,Arial; color: #333333; }
+.artcle-list ul li:hover .tit a { color: #e38514; }
+.artcle-list ul li:hover span { color: #e38514; }
+.artcle-list ul li:hover { background: #fcfcfc url(../../WebUI/images/libg1.png) no-repeat 5px center; }
+
+.artcle-list ul li span { font: normal 14px/59px 微软雅黑,Arial; color: #666666; text-align: center; padding-right: 5px; }
+/*新书通报*/
+.recommendation-list { overflow: hidden; margin: 5px 0 0; }
+.recommendation-list .list { overflow: hidden; }
+.recommendation-list .list ul { overflow: hidden; }
+.recommendation-list .list ul li { overflow: hidden; padding: 10px; }
+.recommendation-list .list ul li .bor { border: 1px solid #e5e5e5; background: #fff; overflow: hidden; padding: 24px; box-shadow: 0 0 6px #e0e0e0; }
+.recommendation-list .list ul li .bor .pic { width: 121px; height: 165px; padding: 5px; border: 1px solid #dddddd; background: #fff; overflow: hidden; margin: 0 15px 0 0; }
+.recommendation-list .list ul li .bor .pic a { display: block; height: 153px; overflow: hidden; }
+.recommendation-list .list ul li .bor h3 { margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font: normal 18px/32px 微软雅黑,Arial; color: #165396; }
+.recommendation-list .list ul li .bor h3 a { font: normal 18px/32px 微软雅黑,Arial; color: #165396; }
+.recommendation-list .list ul li .bor p { font: normal 12px/27px 微软雅黑,Arial; color: #666666; margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.recommendation-list .list ul li .bor p a { font: normal 12px/27px 微软雅黑,Arial; color: #165396; }
+/*图书票选*/
+.bookpoll-list { overflow: hidden; }
+.bookpoll-list .title { overflow: hidden; height: 36px; background: #e0e0e0; margin: 15px 0 0; }
+.bookpoll-list .title span { display: block; font: normal 14px/36px 微软雅黑,Arial; color: #333333; text-align: center; }
+.bookpoll-list .title span:first-child { text-align: left; text-indent: 20px; }
+.bookpoll-list .list { overflow: hidden; }
+.bookpoll-list .list ul { overflow: hidden; margin: 0; }
+.bookpoll-list .list ul li { overflow: hidden; border-bottom: 1px solid #d6d6d6; }
+.bookpoll-list .list ul li span { font: normal 14px/59px 微软雅黑,Arial; color: #777777; text-align: center; }
+.bookpoll-list .list ul li span a { font: normal 14px/59px 微软雅黑,Arial; color: #2f61ac; }
+.bookpoll-list .list ul li span i { font: normal 14px/59px 微软雅黑,Arial; color: #2f61ac; }
+.bookpoll-list .list ul li span:first-child { text-align: left; text-indent: 20px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #2f61ac; background: url(../../WebUI/images/libg1.png) no-repeat 7px center; }
+/*常见问题*/
+.commonque-list { overflow: hidden; }
+.commonque-list .list { overflow: hidden; border-top: 1px solid #e6e6e6; width: 100%; padding: 30px 0 0; }
+.commonque-list .list ul { overflow: hidden; margin: 0; }
+.commonque-list .list ul li { background: #fff; overflow: hidden; padding: 15px; box-shadow: 0 3px 3px #e0e0e0; margin: 0 0 20px; }
+.commonque-list .list ul li h3 { margin: 0; font: bold 16px/30px 微软雅黑,Arial; color: #105bcb; }
+/*overflow:hidden; text-overflow:ellipsis; white-space:nowrap;*/
+.commonque-list .list ul li h3 a { font: bold 16px/30px 微软雅黑,Arial; color: #105bcb; }
+.commonque-list .list ul li p { font: normal 14px/30px 微软雅黑,Arial; color: #696868; padding: 0 0 0 23px; }
+/*检索*/
+.search-box { padding: 0 60px; overflow: hidden; }
+.search { padding: 0 15px; height: 42px; border: 3px solid #ea8706; border-radius: 38px; background: #f2f2f2; margin: 29px 0; overflow: hidden; box-shadow: 0 3px 3px rgba(1,1,1,0.16) inset; }
+.search .text { width: 70%; height: 36px; padding: 6px 0; overflow: hidden; position: relative; }
+.search .text input { width: 100%; background: none; font: normal 14px/24px 微软雅黑,Arial; color: #c1ae9a; }
+.search .text .question-search-error-blank { color: #f00; font: 12px/22px Arial,"微软雅黑"; opacity: 0; pointer-events: none; position: absolute; right: 20px; top: 8px; transition: all 0.4s ease-in-out 0s; }
+.question-search-nodata { display: none; margin-top: 20px; text-align: center; }
+.question-search-nodata span { border: 1px solid #aaa; border-radius: 5px; color: #666; padding: 16px 32px; }
+.search .button { width: 26px; height: 25px; margin: 7px 0 0; background: url(../../WebUI/images/button.png) no-repeat; }
+.search .button input { width: 26px; height: 25px; background: none; }
+/*留言板*/
+.message-board { overflow: hidden; }
+/*.message-list .title{ overflow:hidden; border-bottom:1px solid #dfdfdf;}
+.message-list .title h3{ font:normal 18px/40px 微软雅黑; color:#b51224; margin:0;}
+.message-list .list ul{ margin:0;}
+.message-list .list ul li{ overflow:hidden; border-bottom:1px solid #dfdfdf; padding:15px 0;}
+.message-list .list ul li .pic{ padding:20px 10px; float:left;}
+.message-list .list ul li .pic span{ display:block; text-align:center; font:normal 14px/34px 微软雅黑; color:#6b6b6b;}
+.message-list .list ul li h3{ font:bold 14px/26px 微软雅黑; color:#777777; margin:10px 0 0 0;}
+.message-list .list ul li p{ font:normal 14px/24px 微软雅黑; color:#777777; margin:0;}
+.message-list .list ul li p font{ color:#9b2633;}
+.message-list .list ul li h4{ font:normal 14px/26px 微软雅黑; color:#c6790c; margin:0;}
+.message-list .list ul li h4 font{ font:bold 14px/26px 微软雅黑; color:#c6790c;}*/
+/*问卷调查*/
+.survey-list { overflow: hidden; width: 100%; border-top: 1px solid #e6e6e6; }
+.survey-list ul { overflow: hidden; margin: 0; padding: 0 0 6px; }
+.survey-list ul li { overflow: hidden; border: 1px solid #dfdfdf; padding: 15px; margin: 24px 0 0; box-shadow: 0 3px 3px #e0e0e0; background: #eeeeee; }
+.survey-list ul li h3 { font: bold 16px/30px 微软雅黑,Arial; color: #3172d2; margin: 0; }
+.survey-list ul li p { margin: 5px 0; }
+.survey-list ul li p span { font: normal 14px/30px 微软雅黑,Arial; color: #888888; display: inline-block; padding: 0 100px 0 0; }
+.survey-list ul li p span i { font: normal 14px/30px 微软雅黑,Arial; color: #0e8d1d; }
+.survey-list ul li a { display: block; width: 87px; height: 25px; text-align: center; background: #747474; font: normal 14px/25px 微软雅黑,Arial; color: #fff; }
+.survey-list ul li .e { background: #e38514; }
+/*软件下载*/
+.commontools { overflow: hidden; }
+.commontools .list { overflow: hidden; }
+.commontools .list ul { overflow: hidden; margin: 0; }
+.commontools .list ul li { overflow: hidden; border-bottom: 1px solid #cfcfcf; padding: 30px 0 20px; }
+.commontools .list ul li h3 { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin: 0; }
+.commontools .list ul li h3 a { font: bold 18px/30px 微软雅黑; color: #555555; }
+.commontools .list ul li p span { font: normal 12px/24px 微软雅黑; color: #a1a1a1; margin: 0 10px 0 0; }
+.commontools .list ul li p { font: normal 14px/30px 微软雅黑; color: #818181; margin: 0; }
+.commontools .list ul li p a { font: normal 14px/24px 微软雅黑; color: #e3920a; background: url(../../WebUI/images/down.png) no-repeat right; padding: 0 27px 0 0; }
+/*资源列表*/
+.resources-list { overflow: hidden; }
+.res-list { overflow: hidden; }
+.res-list .title { overflow: hidden; height: 50px; background: #e8e8e8; margin: 15px 0 0; }
+.res-list .title span { display: block; font: normal 16px/50px 微软雅黑,Arial; color: #333; text-align: center; }
+.res-list .title span:first-child { text-align: left; text-indent: 15px; }
+.res-list .list { overflow: hidden; }
+.res-list .list ul { overflow: hidden; margin: 0; min-height: 500px; }
+.res-list .list ul li { overflow: hidden; border-bottom: 1px dashed #c0c0c0; background: url(../../WebUI/images/libg1.png) no-repeat left; cursor: pointer; }
+.res-list .list ul li span { display: block; font: normal 14px/50px 微软雅黑,Arial; height: 50px; color: #777777; text-align: center; }
+.res-list .list ul li span a { font: normal 14px/50px 微软雅黑,Arial; color: #777777; padding: 0 0 0 5px; }
+.res-list .list ul li span:first-child { text-align: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #333333; text-indent: 15px; }
+.res-list .list ul li span:first-child a { font: normal 14px/50px 微软雅黑,Arial; color: #333; padding: 0; }
+.res-list .list ul li:hover { background: #fcfcfc url(../../WebUI/images/libg1.png) no-repeat left; }
+.res-list .list ul li:hover span a, .res-list .list ul li:hover span { color: #e38514; }
+/*图书票选期次*/
+.bookpolltimes { overflow: hidden; margin: 34px 0 0; }
+.bookpolltimes .titlebox { overflow: hidden; }
+.bookpolltimes .title h3 { width: 83px; height: 63px; float: right; background: #4e97c2; border-radius: 2px; text-align: center; font: normal 24px/63px 微软雅黑,Arial; color: #fff; margin: 0 -41px 0 0; }
+.bookpolltimes ul { overflow: hidden; margin: 0; }
+.bookpolltimes ul li { height: 154px; overflow: hidden; }
+.bookpolltimes ul li .date { height: 154px; border-right: 1px solid #4e97c2; padding: 0; }
+.bookpolltimes ul li .date span { font: normal 24px/154px 微软雅黑,Arial; color: #333333; text-align: right; display: block; }
+.bookpolltimes ul li .date span b { display: inline-block; width: 14px; height: 14px; background: #4e97c2; border-radius: 14px; margin-right: -7px; margin-left: 10px; }
+.bookpolltimes ul li .fontbox { padding: 30px 0; }
+.bookpolltimes ul li .fontbox .font { height: 94px; padding: 15px 30px; background: #e3e2db; border-radius: 2px; position: relative; }
+.bookpolltimes ul li .fontbox .font h3 { margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font: normal 22px/36px 微软雅黑,Arial; color: #555555; }
+.bookpolltimes ul li .fontbox .font h3 a { font: normal 22px/36px 微软雅黑,Arial; color: #555555; }
+.bookpolltimes ul li .fontbox .font p { font: normal 14px/24px 微软雅黑,Arial; color: #909090; margin: 0; }
+.bookpolltimes ul li .fontbox .font b { display: block; width: 0; height: 0; border: 16px solid rgba(227,226,219,1); border-left: 16px solid rgba(227,226,219,0); border-top: 16px solid rgba(227,226,219,0); border-bottom: 16px solid rgba(227,226,219,0); position: absolute; left: -32px; top: 50%; margin-top: -16px; }
+.bookpolltimes .button { color: #555555; font: 22px/36px 微软雅黑,Arial; text-align: center; }
+/*网站地图*/
+.map { overflow: hidden; min-height: 770px; }
+.map .title { margin: 20px 0; border-bottom: 1px solid #a9a9a9; overflow: hidden; }
+.map .title h3 { color: #f39010; font: normal 24px/44px 微软雅黑,Arial; float: left; padding: 0 15px; margin: 0; border-bottom: 3px solid #f39010; }
+.map .list { overflow: hidden; min-height: 700px; }
+.map .list ul { overflow: hidden; margin: 0; }
+.map .list ul li { overflow: hidden; border-bottom: 1px solid #e5e5e5; padding: 37px 0 13px; }
+.map .list ul li strong { font: normal 24px/36px 微软雅黑,Arial; color: #2163c5; text-align: center; }
+.map .list ul li div a { font: normal 16px/36px 微软雅黑,Arial; color: #333333; margin: 0 15px; display: inline-block; }

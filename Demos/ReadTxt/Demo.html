@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="jquery-1.9.1.min.js"></script>
+</head>
+<body>
+    <!--<script type="text/javascript">
+        $(function () {
+            $(".Visit").load("Site_Counter.txt");
+            $.ajax({
+
+                type: "GET",
+
+                url: "Site_Counter.txt",
+
+                dataType: "text",
+
+                success: function (rs) {
+
+                    alert(rs);
+
+                },
+
+                error: function () {
+
+                    alert("error");
+
+                }
+
+            });
+        })
+    </script>-->
+    <!--<script language="javascript" type="text/javascript">
+        window.onload = function () {
+            var ForReading = 1;
+            var fso, ts, s;
+
+            var xmlHttp = ""; // 创建XMLHTTPRequest对象
+            if (window.ActiveXObject) { // 判断是否支持ActiveX控件
+                xmlHttp = new ActiveXObject("Microsoft.XMLHTTP"); // 通过实例化ActiveXObject的一个新实例来创建XMLHTTPRequest对象
+            }
+            else if (window.XMLHttpRequest) { // 判断是否把XMLHTTPRequest实现为一个本地javascript对象
+                xmlHttp = new XMLHttpRequest(); // 创建XMLHTTPRequest的一个实例（本地javascript对象）
+            }
+            //ts = xmlHttp.OpenTextFile("Site_Counter.xml", ForReading);
+            ts = xmlHttp.open("GET", "Site_Counter.txt", true);
+            s = xmlHttp.responseText;
+            alert(s);
+           // ts = xmlHttp.OpenTextFile("Site_Counter.txt", ForReading);
+            //输出来
+           // document.write(ts);
+            //关闭
+          //  ts.Close();
+            var tf = xmlHttp.open("POST","aa.txt", true);
+            ////把字符重新写入文件
+            tf.Write("1111");
+        }
+
+    </script>-->
+    <script type="text/javascript">
+        window.onload = function () {
+            read("Site_Counter.txt");
+        }
+function read(file) {
+    if(typeof window.ActiveXObject != 'undefined') {
+        var content = "";
+        try {
+            var fso = new ActiveXObject("Scripting.FileSystemObject");
+            var reader = fso.openTextFile(file, 1);
+            while(!reader.AtEndofStream) {
+                content += reader.readline();
+                content += "\n";
+            }
+            // close the reader
+            reader.close();
+        }
+        catch (e) {
+            alert("Internet Explore read local file error: \n" + e);
+        }
+
+        return content;
+    }
+    else if(document.implementation && document.implementation.createDocument) {
+        var content = ""
+        try {
+            netscape.security.PrivilegeManager.enablePrivilege('UniversalXPConnect');
+            var lf = Components.classes["@mozilla.org/file/local;1"].createInstance(Components.interfaces.nsILocalFile);
+            lf.initWithPath(file);
+            if (lf.exists() == false) {
+                alert("File does not exist");
+            }
+
+            var fis = Components.classes["@mozilla.org/network/file-input-stream;1"].createInstance(Components.interfaces.nsIFileInputStream);
+            fis.init(lf, 0x01, 00004, null);
+            var sis = Components.classes["@mozilla.org/scriptableinputstream;1"].createInstance(Components.interfaces.nsIScriptableInputStream);
+            sis.init(fis);
+            var converter = Components.classes["@mozilla.org/intl/scriptableunicodeconverter"].createInstance(Components.interfaces.nsIScriptableUnicodeConverter);
+            converter.charset = "UTF-8";
+            content = converter.ConvertToUnicode(sis.read(sis.available()));
+        }
+        catch (e) {
+            alert("Mozilla Firefox read local file error: \n" + e);
+        }
+
+        return content;
+    }
+}
+    </script>
+    <div class="Visit"></div>
+    <div id="Visit"></div>
+</body>
+</html>

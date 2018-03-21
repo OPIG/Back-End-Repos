@@ -1,0 +1,9 @@
+H:\Inetmgr\DoIT\Back-End\Demos\FileConvert\bin\Debug\FileConvert.exe.config
+H:\Inetmgr\DoIT\Back-End\Demos\FileConvert\bin\Debug\FileConvert.exe
+H:\Inetmgr\DoIT\Back-End\Demos\FileConvert\bin\Debug\FileConvert.pdb
+H:\Inetmgr\DoIT\Back-End\Demos\FileConvert\obj\Debug\FileConvert.csprojResolveAssemblyReference.cache
+H:\Inetmgr\DoIT\Back-End\Demos\FileConvert\obj\Debug\FileConvert.Form1.resources
+H:\Inetmgr\DoIT\Back-End\Demos\FileConvert\obj\Debug\FileConvert.Properties.Resources.resources
+H:\Inetmgr\DoIT\Back-End\Demos\FileConvert\obj\Debug\FileConvert.csproj.GenerateResource.Cache
+H:\Inetmgr\DoIT\Back-End\Demos\FileConvert\obj\Debug\FileConvert.exe
+H:\Inetmgr\DoIT\Back-End\Demos\FileConvert\obj\Debug\FileConvert.pdb

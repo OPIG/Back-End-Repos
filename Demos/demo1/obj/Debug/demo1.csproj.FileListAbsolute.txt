@@ -1,0 +1,8 @@
+G:\DoIT\Back-End\Demos\demo1\bin\Debug\demo1.exe.config
+G:\DoIT\Back-End\Demos\demo1\bin\Debug\demo1.exe
+G:\DoIT\Back-End\Demos\demo1\bin\Debug\demo1.pdb
+G:\DoIT\Back-End\Demos\demo1\obj\Debug\demo1.exe
+G:\DoIT\Back-End\Demos\demo1\obj\Debug\demo1.pdb
+E:\DoIT\Back-End\Demos\demo1\bin\Debug\demo1.exe.config
+E:\DoIT\Back-End\Demos\demo1\obj\Debug\demo1.exe
+E:\DoIT\Back-End\Demos\demo1\obj\Debug\demo1.pdb

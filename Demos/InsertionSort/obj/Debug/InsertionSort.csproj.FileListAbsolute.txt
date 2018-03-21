@@ -1,0 +1,12 @@
+E:\DoIT\Back-End\Demos\InsertionSort\bin\Debug\InsertionSort.exe.config
+E:\DoIT\Back-End\Demos\InsertionSort\bin\Debug\InsertionSort.exe
+E:\DoIT\Back-End\Demos\InsertionSort\bin\Debug\InsertionSort.pdb
+E:\DoIT\Back-End\Demos\InsertionSort\obj\Debug\InsertionSort.csprojResolveAssemblyReference.cache
+E:\DoIT\Back-End\Demos\InsertionSort\obj\Debug\InsertionSort.exe
+E:\DoIT\Back-End\Demos\InsertionSort\obj\Debug\InsertionSort.pdb
+G:\DoIT\Back-End\Demos\InsertionSort\bin\Debug\InsertionSort.exe.config
+G:\DoIT\Back-End\Demos\InsertionSort\obj\Debug\InsertionSort.exe
+G:\DoIT\Back-End\Demos\InsertionSort\obj\Debug\InsertionSort.pdb
+G:\DoIT\Back-End\Demos\InsertionSort\bin\Debug\InsertionSort.exe
+G:\DoIT\Back-End\Demos\InsertionSort\bin\Debug\InsertionSort.pdb
+G:\DoIT\Back-End\Demos\InsertionSort\obj\Debug\InsertionSort.csprojResolveAssemblyReference.cache

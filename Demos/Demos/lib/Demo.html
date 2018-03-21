@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <!--<script src="WebUI/js/script/vue.js"></script>-->
+    <!--var data={
+    message:'Hello World!'
+    }
+    var demo=new vue{
+    el:'#header',
+    data:data
+    }-->
+    <!--<script type="text/javascript">
+        window.onload = function () {
+            var temp = drink(5, 5);
+           //  console.log(temp);
+        }
+
+        function drink(bottle, top) {
+            if (bottle >= 2 || top >= 4) {
+                leftBottle = (bottle / 2) + (bottle % 2) + (top / 4);
+                leftTop = (top / 4) + (top % 4) + (bottle / 2);
+
+                var t = (bottle / 2) + (top / 4) + drink(leftBottle, leftTop);
+                console.log(t);
+            }
+        }
+    </script>-->
+</head>
+<body>
+    <div id="header">
+        <!--<p>{{message}}</p>-->
+        <input v-model="message" />
+    </div>
+    <div id="container"></div>
+    <div id="footer"></div>
+</body>
+</html>

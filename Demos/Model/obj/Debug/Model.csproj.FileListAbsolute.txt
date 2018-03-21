@@ -1,0 +1,13 @@
+H:\Inetmgr\Demos\Model\bin\Debug\Model.dll
+H:\Inetmgr\Demos\Model\bin\Debug\Model.pdb
+H:\Inetmgr\Demos\Model\obj\Debug\Model.dll
+H:\Inetmgr\Demos\Model\obj\Debug\Model.pdb
+H:\Inetmgr\Demos\Model\bin\Debug\Dos.ORM.dll
+H:\Inetmgr\Demos\Model\bin\Debug\Dos.ORM.xml
+H:\Inetmgr\DoIT\Back-End\Demos\Model\bin\Debug\Model.dll
+H:\Inetmgr\DoIT\Back-End\Demos\Model\bin\Debug\Model.pdb
+H:\Inetmgr\DoIT\Back-End\Demos\Model\bin\Debug\Dos.ORM.dll
+H:\Inetmgr\DoIT\Back-End\Demos\Model\bin\Debug\Dos.ORM.xml
+H:\Inetmgr\DoIT\Back-End\Demos\Model\obj\Debug\Model.dll
+H:\Inetmgr\DoIT\Back-End\Demos\Model\obj\Debug\Model.pdb
+H:\Inetmgr\DoIT\Back-End\Demos\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
